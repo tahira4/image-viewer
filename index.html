@@ -2,7 +2,9 @@
 <html>
 <head>
     <title>Uploaded Image</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https:;">
 </head>
+
 <body>
     <h1>My Uploaded Image from S3</h1>
     <img src="https://my-image-upload-aws-bucket.s3.us-east-2.amazonaws.com/Screenshot+2025-03-13+091602.png" alt="My Image" width="500">
